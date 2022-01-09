@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "245028501043",
+    "firebase_url": "https://realestate-9cb72-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "realestate-9cb72",
+    "storage_bucket": "realestate-9cb72.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:245028501043:android:27a23d9128ddff166a5546",
+        "android_client_info": {
+          "package_name": "com.ALDev.kesemrealestate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "245028501043-58v3sutecs7qq2mispv0kqch0nrspk2r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJ93HWRl2d1gau0kKVg1AE7CEUgYsLQ68"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "245028501043-58v3sutecs7qq2mispv0kqch0nrspk2r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:245028501043:android:6a9f32651ab3236f6a5546",
+        "android_client_info": {
+          "package_name": "com.aldev.kesemrealestateadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "245028501043-58v3sutecs7qq2mispv0kqch0nrspk2r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJ93HWRl2d1gau0kKVg1AE7CEUgYsLQ68"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "245028501043-58v3sutecs7qq2mispv0kqch0nrspk2r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

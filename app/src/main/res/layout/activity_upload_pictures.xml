@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/myWhite"
+    tools:context=".UploadPicturesActivity">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_choose_img"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp"
+        android:fontFamily="@font/varela_round"
+        android:text="העלת תמונות"
+        android:textColor="@color/black"
+        android:textSize="36sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_choose_img"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/myRed"
+        android:fontFamily="@font/varela_round"
+        android:text="בחר תמונות"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_upload_img"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_choose_img"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="40dp"
+        android:background="@color/myRed"
+        android:fontFamily="@font/varela_round"
+        android:text="העלה תמונות"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+</RelativeLayout>
