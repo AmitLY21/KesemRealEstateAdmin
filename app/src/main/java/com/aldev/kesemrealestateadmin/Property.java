@@ -8,6 +8,10 @@ import java.util.ArrayList;
 public class Property implements Serializable {
     String description;
     private String propertyNumber;
+
+    public Property() {
+    }
+
     private ArrayList<Uri> propertyImages = new ArrayList<>();
     private int numOfRooms;
     private int numOfBathrooms;
@@ -112,5 +116,50 @@ public class Property implements Serializable {
         this.propertyNumber = propertyNumber;
         return this;
     }
+
+    public ArrayList<Uri> getPropertyImages() {
+        return propertyImages;
+    }
+
+    public int getNumOfRooms() {
+        return numOfRooms;
+    }
+
+    public int getNumOfBathrooms() {
+        return numOfBathrooms;
+    }
+
+    public int getSquareFoot() {
+        return squareFoot;
+    }
+
+    public int getNumOfParkingSpaces() {
+        return numOfParkingSpaces;
+    }
+
+    public int getNumOfFloors() {
+        return numOfFloors;
+    }
+
+    public boolean isLiked() {
+        return isLiked;
+    }
+
+    public boolean isElevator() {
+        return elevator;
+    }
+
+    public boolean isStorage() {
+        return storage;
+    }
+
+    public boolean isBalcony() {
+        return balcony;
+    }
+
+    public boolean isMamad() {
+        return mamad;
+    }
+
 
 }
